@@ -3,5 +3,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-facade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-facade/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-protocol/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-protocol/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zrpc-registry/src/main/resources" charset="UTF-8" />
   </component>
 </project>
