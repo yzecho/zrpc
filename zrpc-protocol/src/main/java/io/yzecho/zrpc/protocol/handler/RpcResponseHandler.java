@@ -20,7 +20,9 @@ public class RpcResponseHandler extends SimpleChannelInboundHandler<RpcProtocol<
     @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, RpcProtocol<RpcResponse> msg) throws Exception {
         long requestId = msg.getHeader().getRequestId();
+        // 收到响应后将映射关系溢出
         RpcFuture<RpcResponse> future = RpcRequestHolder.REQUEST_MAP.remove(requestId);
+        // 通过 promise 将 res 写回
         future.getPromise().setSuccess(msg.getBody());
     }
 }

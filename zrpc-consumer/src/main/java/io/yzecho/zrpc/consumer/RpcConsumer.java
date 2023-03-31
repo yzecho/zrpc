@@ -53,9 +53,9 @@ public class RpcConsumer {
             ChannelFuture future = bootstrap.connect(serviceMeta.getServiceAddr(), serviceMeta.getServicePort()).sync();
             future.addListener((ChannelFutureListener) f -> {
                 if (f.isSuccess()) {
-                    log.info("connect zrpc server {} on port {} success.", serviceMeta.getServiceAddr(), serviceMeta.getServicePort());
+                    log.info("Connect zrpc server {} on port {} success.", serviceMeta.getServiceAddr(), serviceMeta.getServicePort());
                 } else {
-                    log.error("connect zrpc server {} on port {} failed.", serviceMeta.getServiceAddr(), serviceMeta.getServicePort());
+                    log.error("Connect zrpc server {} on port {} failed.", serviceMeta.getServiceAddr(), serviceMeta.getServicePort());
                     future.cause().printStackTrace();
                     eventLoopGroup.shutdownGracefully();
                 }
